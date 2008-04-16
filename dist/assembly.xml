@@ -54,4 +54,38 @@ Assembly descriptor for the full distribution.
     </dependencySet>
     -->
   </dependencySets>
+
+
+  <!--
+      This is the original snippet from Mule's distribution assembly.xml,
+      keeping it for further reference
+
+      ============================
+      Mule Tools: Visualizer
+      ============================
+
+      <fileSet>
+          <directory>../../../tools/visualizer/win32</directory>
+          <outputDirectory>lib/native/visualizer</outputDirectory>
+      </fileSet>
+      <fileSet>
+          <directory>../../../tools/visualizer/src/main/resources/bin</directory>
+          <outputDirectory>bin</outputDirectory>
+          <fileMode>755</fileMode>
+          <includes>
+              <include>launcher</include>
+              <include>launcher.bat</include>
+              <include>visualizer</include>
+              <include>visualizer.bat</include>
+          </includes>
+      </fileSet>
+      <fileSet>
+          <directory>../../../tools/visualizer/src/main/resources/bin</directory>
+          <outputDirectory>bin</outputDirectory>
+          <includes>
+              <include>launcher.conf</include>
+              <include>visualizer.groovy</include>
+          </includes>
+      </fileSet>
+      -->
 </assembly>
